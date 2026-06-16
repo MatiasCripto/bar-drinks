@@ -38,7 +38,7 @@ export default function CategoryManager({
   }
 
   return (
-    <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700 p-4">
+    <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 p-4">
       <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Categorías</h3>
 
       <div className="space-y-2 mb-4">

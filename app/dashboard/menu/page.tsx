@@ -79,7 +79,8 @@ export default function MenuPage() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
+        {/* Lista de productos - ocupa 2/3 en desktop */}
         <div className="lg:col-span-2">
           <DrinkList
             drinks={drinks}
@@ -90,7 +91,8 @@ export default function MenuPage() {
           />
         </div>
 
-        <div>
+        {/* Categorías - ocupa 1/3 en desktop */}
+        <div className="lg:col-span-1">
           <CategoryManager
             categories={categories}
             onAdd={addCategory}
